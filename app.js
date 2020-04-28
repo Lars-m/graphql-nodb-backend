@@ -21,8 +21,8 @@ const schema = buildSchema(`
 
   
   type Coordinate {
-    latitude: String!
-    longitude:String!
+    latitude: Float!
+    longitude:Float!
   }
   
   type Coordinates {
